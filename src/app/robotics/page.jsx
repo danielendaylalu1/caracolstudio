@@ -3,9 +3,9 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="h-[100vh] max-h-[100vh] overflow-y-scroll no-scrollbar">
+    <div className="min-h-[100vh] max-h-[100vh] overflow-y-scroll no-scrollbar">
       <div className="h-full w-full">
-        <div className="h-full bg-[#cdc8c9] flex flex-col space-y-8 justify-center p-8">
+        <div className="h-full bg-[#cdc8c9] flex flex-col space-y-8 justify-center px-4 py-16">
           <div className="flex justify-around">
             <div className="flex flex-col space-y-8">
               <h1 className="text-white text-[54px]">Robotic</h1>
