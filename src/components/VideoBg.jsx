@@ -12,7 +12,7 @@ const VideoBg = () => {
   });
   return (
     <video muted loop id="bgvid" ref={videoRef}>
-      <source src="./video-bg.mov" type="video/mp4" />
+      <source src="./video-bg.mp4" type="video/mp4" />
     </video>
   );
 };
