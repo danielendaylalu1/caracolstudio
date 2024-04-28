@@ -8,12 +8,7 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-.header-link:hover {
-  background-color: #f7f7f057;
-  transition: all 0.3s ease-in;
-  border: none;
-  font-size: 65px;
-}
+
 video#bgvid {
   /* position: fixed; */
   position: absolute;
@@ -36,6 +31,12 @@ video#bgvid {
 }
 
 @media only screen and (min-width: 785px) {
+  .header-link:hover {
+    background-color: #f7f7f057;
+    transition: all 0.3s ease-in;
+    border: none;
+    font-size: 65px;
+  }
   .act-links {
     opacity: 1;
   }
