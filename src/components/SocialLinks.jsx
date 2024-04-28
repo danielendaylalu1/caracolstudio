@@ -3,8 +3,10 @@ import Link from "next/link";
 
 const SocialLinks = ({ children, link }) => {
   return (
-    <div className="border-t border-white flex justify-center py-4">
-      <Link href={link}>{children}</Link>
+    <div className="border-t border-white flex">
+      <Link href={link} className="py-4 w-full text-center flex justify-center">
+        {children}
+      </Link>
     </div>
   );
 };
