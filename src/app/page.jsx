@@ -3,8 +3,6 @@ import Link from "next/link";
 import NavigationLinks from "@/components/NavigationLinks";
 import ActLink from "@/components/ActLink";
 import VideoBg from "@/components/VideoBg";
-import HomeLogo from "@/components/HomeLogo";
-import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
@@ -28,7 +26,6 @@ export default function Home() {
             </Link>
             <Link
               href="/robotics"
-              target="_blank"
               className="header-link max-[685px]:text-[24px] max-[685px]:py-12 max-[685px]:min-w-[250px]  text-[56px] py-16 text-center min-w-[450px] border border-white font-bold text-white inline-block"
             >
               ROBOTIC
