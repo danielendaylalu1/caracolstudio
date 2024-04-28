@@ -40,7 +40,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className=" bg-white px-4 min-h-[50vh] flex justify-center items-center">
+        <div className=" bg-white p-4 min-h-[50vh] flex justify-center items-center">
           <p className="max-w-[1250px] text-center">
             {`"Connetti i punti della nebulosa post industriale e organicamente
             tessi la struttura sensibile della robotica applicata all'arte.
