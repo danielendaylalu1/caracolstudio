@@ -16,14 +16,12 @@ const NavBar = () => {
     >
       <div className="NAVLOGO flex flex-col items-center px-1 py-4 space-y-3">
         <Link href="/">
-          <Image src={logo} alt="logo" className="w-[64px]" />
+          <Image src={logo} alt="logo" className="w-[64px] mt-2" />
         </Link>
-        <div className="flex justify-center">
-          <IoMenuSharp
-            size={32}
-            className="self-center font-bold cursor-pointer"
-          />
-        </div>
+        <IoMenuSharp
+          size={32}
+          className="self-center font-bold cursor-pointer"
+        />
       </div>
       <div className="NAVLINKS flex flex-col ">
         <SocialLinks link="/">
