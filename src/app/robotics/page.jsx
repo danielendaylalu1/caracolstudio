@@ -8,7 +8,7 @@ const page = () => {
     <div className="h-[100vh] max-h-[100vh] overflow-y-scroll no-scrollbar">
       {/* <HomeLogo pos="fixed" />
       <NavBar pos="fixed" /> */}
-      <div className="h-full w-full">
+      <div className="min-h-full w-full pt-12">
         <div className="h-full bg-[#cdc8c9] flex flex-col space-y-8 justify-center p-8">
           <div className="flex justify-around">
             <div className="flex flex-col space-y-8">
