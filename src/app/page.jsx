@@ -7,11 +7,16 @@ import Link from "next/link";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { PiInstagramLogoLight } from "react-icons/pi";
 import SocialLinks from "@/components/SocialLinks";
+import NavigationLinks from "@/components/NavigationLinks";
+import ActLink from "@/components/ActLink";
 
 export default function Home() {
   return (
     <main className="">
-      <div className="section-header min-h-[100vh] bg-green-100 p-4">
+      <div className="section-header min-h-[100vh] p-4">
+        <video autoplay muted loop id="bgvid">
+          <source src="../assets/video-bg.mov" type="video/mp4" />
+        </video>
         <div className="max-w-[230px]">
           <Image src={textLogo} alt="caracol studio logo" />
         </div>
@@ -48,7 +53,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="section-navigation min-h-[100vh] bg-black"></div>
+      <div className="section-navigation h-[100vh] bg-black flex flex-col">
+        <NavigationLinks link="/" title="ABOUT US" />
+        <div
+          href="/"
+          className="nav-link w-full h-[20%] flex items-center justify-between px-16 border-b border-white"
+        >
+          <p className="text-3xl text-[#5d5d5d] font-medium">ACTIVITIES</p>
+          <ul className="act-links flex flex-col">
+            <ActLink link="/" title="DESIGN" />
+            <ActLink link="/" title="ROBOTICS" />
+            <ActLink link="/" title="FACTORY" />
+          </ul>
+        </div>
+        <NavigationLinks link="/" title="LOGBOOK" />
+        <NavigationLinks link="/" title="SHOP" />
+        <NavigationLinks link="/" title="CONTACT" />
+      </div>
     </main>
   );
 }
