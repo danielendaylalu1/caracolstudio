@@ -11,7 +11,7 @@ import SocialLinks from "@/components/SocialLinks";
 export default function Home() {
   return (
     <main className="">
-      <div className="section-header min-h-[108vh] bg-green-50 p-4">
+      <div className="section-header min-h-[100vh] bg-green-100 p-4">
         <div className="max-w-[230px]">
           <Image src={textLogo} alt="caracol studio logo" />
         </div>
@@ -40,14 +40,15 @@ export default function Home() {
               <FaFacebookF />
             </SocialLinks>
             <SocialLinks link="/">
-              <FaFacebookF />
+              <PiInstagramLogoLight />
             </SocialLinks>
             <SocialLinks link="/">
-              <FaFacebookF />
+              <FaLinkedinIn />
             </SocialLinks>
           </div>
         </div>
       </div>
+      <div className="section-navigation min-h-[100vh] bg-black"></div>
     </main>
   );
 }
