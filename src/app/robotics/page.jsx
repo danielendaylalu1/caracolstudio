@@ -46,7 +46,7 @@ const page = () => {
         </div>
         <div className=" bg-white px-4 min-h-[50vh] flex justify-center items-center">
           <p className="max-w-[1250px] text-center">
-            "Connetti i punti della nebulosa post industriale e organicamente
+            {`"Connetti i punti della nebulosa post industriale e organicamente
             tessi la struttura sensibile della robotica applicata all'arte.
             Sinapsi digitali generano sistemi di crescita computazionale e
             vengono plasmati in espressioni materiche atipiche, inedite.
@@ -56,19 +56,19 @@ const page = () => {
             interpretano bit ed estrudono atomi. Metti a sistema il non
             standard, rinnega la serialità di massa alienante ed alienata L'era
             industriale è giunta al suo termine la robotica si fa umana ed
-            artigianale."
+            artigianale."`}
           </p>
         </div>
         <div className="bg-[#f0f0f0] flex items-center justify-center px-4 py-16">
           <div className="max-w-[750px] flex flex-col space-y-12">
             <p className="text-base">
-              "A flower: pure beauty need math to understand how beauty works
+              {`"A flower: pure beauty need math to understand how beauty works
               need math to read beauty. A function is defined variables,
               parameters, digital synopsis and finally coordinates. Notes. Lost
               in translation, follow the path and get notes notes play music,
               magic. A machine is dancing: is beautiful and now sync it,
               translate it, observe it carefully and then listen everything is
-              just happening"
+              just happening"`}
             </p>
 
             <Card
@@ -116,13 +116,13 @@ const page = () => {
               showAuthor={false}
             />
             <p className="text-sm">
-              Il braccio meccanico, tramite il suo sinuoso movimento
+              {`Il braccio meccanico, tramite il suo sinuoso movimento
               nell'oscurita, simboleggia la ricerca perpetua di indizi che
               possano svelare il mistero che si cela dietro la scomparsa di
               Ettore Majorana, genio fisico Italiano dell'inizio del 900,
               compagno di Enrico Fermi ed ispiratore di generazioni di
               scienziati. Quello che permane, sono solo domande e lettere
-              ambigue...
+              ambigue...`}
             </p>
             <Card
               title="MAKER FAIR ROME"
