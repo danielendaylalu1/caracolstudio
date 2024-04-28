@@ -8,9 +8,6 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-.section-header {
-  /* position: relative; */
-}
 .header-link:hover {
   background-color: #f7f7f057;
   transition: all 0.3s ease-in;
@@ -25,7 +22,7 @@ video#bgvid {
   left: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 100%;
+  /* min-height: 100%; */
   width: 99vw;
   min-height: 100vh;
   z-index: -1;
