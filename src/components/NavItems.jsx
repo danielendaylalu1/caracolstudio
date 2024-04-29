@@ -6,7 +6,7 @@ const NavItems = ({ showStyle }) => {
   console.log("navitems", showStyle);
   return (
     <ul
-      className={`NAVITEMS h-[100vh] z-30 flex flex-col justify-center items-center bg-[#3f3f3e95] absolute top-0 ${showStyle}`}
+      className={`NAVITEMS z-30 flex flex-col justify-center items-center bg-[#3f3f3e95] h-[100vh] fixed top-0 ${showStyle}`}
     >
       <div className="flex flex-col space-y-8">
         <a

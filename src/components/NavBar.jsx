@@ -18,7 +18,7 @@ const NavBar = () => {
     <>
       <NavItems showStyle={showNavItems ? "show" : ""} />
       <div
-        className={`NAV flex flex-col justify-between border-l border-l-white right-0 top-0 h-[100vh] bg-[#f7f7f057] absolute`}
+        className={`NAV flex flex-col justify-between border-l border-l-white right-0 top-0 max-[1100]:h-auto h-[100vh] bg-[#f7f7f057] absolute`}
       >
         <div className="NAVLOGO flex flex-col items-center px-1 py-4 space-y-3">
           <Link href="/">

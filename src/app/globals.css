@@ -105,7 +105,7 @@ video#bgvid {
     border-top: 0 !important;
   }
   .NAVITEMS {
-    top: 8.2% !important;
+    top: calc(0% + 4.2rem);
   }
   .show {
     right: 0 !important;
