@@ -19,7 +19,7 @@ const NavItems = ({ showStyle }) => {
           <p className="max-[785px]:text-lg text-2xl text-slate-200 hover:text-white">
             ACTIVITIES
           </p>
-          <ul className="flex flex-col space-y-2 ml-4">
+          <ul className="flex flex-col gap-y-4 ml-4">
             <ActLink link="/" title="DESIGN" />
             <ActLink link="/robotics" title="ROBOTICS" />
             <ActLink link="/" title="FACTORY" />
