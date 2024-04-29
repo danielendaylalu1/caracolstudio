@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="h-[100vh] overflow-y-scroll no-scrollbar">
-      <div className="h-[100vh] bg-[#cdc8c9] flex flex-col justify-center space-y-8 px-4 py-16">
+      <div className="bg-[#cdc8c9] flex flex-col justify-center space-y-8 px-4 py-16">
         <div className="flex justify-around">
           <div className="flex flex-col space-y-8">
             <h1 className="text-white text-[54px] font-bold">ROBOTIC</h1>
