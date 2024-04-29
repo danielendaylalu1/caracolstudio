@@ -10,23 +10,23 @@ export default function Home() {
       <div className="HEADER section-header min-h-[100vh] p-4">
         <VideoBg />
 
-        <div className="HEADERTITLES flex max-[985px]:flex-col max-[985px]:space-x-0 space-y-4 items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 space-x-8">
+        <div className="HEADERTITLES flex max-[985px]:space-x-0 gap-x-8 gap-y-4 items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
           <Link
             href="/"
-            className="header-link max-[685px]:text-[24px] max-[685px]:py-12 max-[685px]:min-w-[250px]   text-[56px] py-16 text-center min-w-[450px] border border-white font-bold text-white inline-block mt-8"
+            className="header-link max-[685px]:text-[24px] max-[685px]:py-12   text-[56px] py-16 text-center px-8 border border-white font-bold text-white inline-block mt-8"
           >
             DESIGN
           </Link>
           <div className="flex flex-col space-y-4 items-center">
             <Link
               href="/"
-              className="header-link max-[685px]:text-[24px] max-[685px]:py-12 max-[685px]:min-w-[250px]   text-[56px] py-16 text-center min-w-[450px] border border-white font-bold text-white inline-block"
+              className="header-link max-[685px]:text-[24px] max-[685px]:py-12   text-[56px] py-16 text-center px-8 border border-white font-bold text-white inline-block"
             >
               FACTORY
             </Link>
             <Link
               href="/robotics"
-              className="header-link max-[685px]:text-[24px] max-[685px]:py-12 max-[685px]:min-w-[250px]  text-[56px] py-16 text-center min-w-[450px] border border-white font-bold text-white inline-block"
+              className="header-link max-[685px]:text-[24px] max-[685px]:py-12  text-[56px] py-16 text-center px-8 border border-white font-bold text-white inline-block"
             >
               ROBOTIC
             </Link>

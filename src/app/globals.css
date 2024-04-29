@@ -72,6 +72,9 @@ video#bgvid {
 }
 
 @media only screen and (max-width: 1100px) {
+  .HEADERTITLES a {
+    max-width: 450px !important;
+  }
   .logo {
     display: none;
   }
@@ -113,6 +116,21 @@ video#bgvid {
 }
 
 @media only screen and (max-width: 785px) {
+  .HEADERTITLES {
+    flex-direction: column;
+    width: 100%;
+  }
+  .HEADER {
+    padding: 1rem 0.5rem !important;
+  }
+  .HEADERTITLES div {
+    width: 100%;
+  }
+  .HEADERTITLES a {
+    width: 80%;
+    font-size: 3rem;
+    background-color: #5e5e5d95;
+  }
   .act-links {
     opacity: 1;
   }
@@ -122,5 +140,17 @@ video#bgvid {
   }
   .act-link {
     font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .HEADER {
+    padding: 1rem 0.5rem !important;
+  }
+
+  .HEADERTITLES a {
+    width: 90%;
+    font-size: 3rem;
+    background-color: #5e5e5d95;
   }
 }
