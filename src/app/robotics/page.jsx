@@ -34,7 +34,7 @@ const page = () => {
                         effetto scenico senza eguali, giustificandol'antropomorfizzazione di un arto meccanico 
                         che diventa figura di intrattenimento, snaturandosi dalla sua dimensione rigida
                         ed industriale ma senza minare quello che é la figura umana alla quale vuole assomigliare.`}
-                showAuthor={true}
+                more={``}
               />
             </div>
           </div>
@@ -75,7 +75,6 @@ const page = () => {
               Trascendenza robotica audiovisiva. L'interazione tra l'uomo e la
               macchina e l'utilizzo di strumenti tecnologici oltre i canoni
               fittizi sono il cuore dell'esplorazione artistica di "Rhodonea".`}
-            showAuthor={true}
           />
 
           <Card
@@ -88,7 +87,6 @@ const page = () => {
               Il contesto in cui l'installazione si è calata, lo studio
               fotografico Gianni Rizzotti è parte integrante e fondamentale
               dell'intero processo."
-            showAuthor={true}
           />
           <Card
             title="EXPO ASTANA 2017 “FUTURE ENERGY”"
@@ -99,7 +97,6 @@ const page = () => {
               Italia è un braccio meccanico industriale che svolge un'attività del tutto non convenzionale rispetto 
               allo standard: la sua natura viene rielaborata per essere trasformanto in uno 
               strumento al servizio della creatività.`}
-            showAuthor={true}
           />
           <Card
             title="MAJORANA RELOADED"
@@ -109,7 +106,6 @@ const page = () => {
               foyer del Teatro Sociale di Como, affacciato sulla piazza del Duomo. Grazie all'intesa fra il Teatro ed il 
               parco tecnologico Como Next che ospita la nostra start-up, é stata curata una installazione che anticipa la 
               prima mondiale dell'opera "Ettore Majorana. Cronaca di infinite scomparse".`}
-            showAuthor={false}
           />
           <p className="text-sm">
             {`Il braccio meccanico, tramite il suo sinuoso movimento
@@ -126,13 +122,11 @@ const page = () => {
             desc={`Breve documentario sulla nostra esperienza alla Maker Faire Rome 2016, dove siamo stati 
               invitati a presentare ufficialmente il nostro progetto di ricerca sperimentale su stampa 3d e 
               robotica a seguito del bando "Big Bang Project" riguardo il potenziale della fabbricazione digitale su larga scala..`}
-            showAuthor={false}
           />
           <Card
             title="FIERA METEF"
             date="Verona, Italy 21 - 24 Giugno 2017"
             desc={`In partnership con KUKA, Caracol Design Studio presenta una demo di manifattura additiva robotizzata alla fiera METEF di Verona.`}
-            showAuthor={false}
           />
         </div>
       </div>

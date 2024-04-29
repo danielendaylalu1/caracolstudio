@@ -2,7 +2,7 @@ import React from "react";
 
 function ActLink({ link, title }) {
   return (
-    <a href={link} className="font-bold text-white">
+    <a href={link} className={`act-link font-bold text-white`}>
       {title}
     </a>
   );

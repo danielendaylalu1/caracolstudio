@@ -1,16 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import Image from "next/image";
-import logo from "../assets/logo.png";
-import { IoMenuSharp } from "react-icons/io5";
-import Link from "next/link";
-
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { PiInstagramLogoLight } from "react-icons/pi";
-import SocialLinks from "@/components/SocialLinks";
-import VideoBg from "@/components/VideoBg";
-import textLogo from "../assets/text-logo.png";
 import HomeLogo from "@/components/HomeLogo";
 import NavBar from "@/components/NavBar";
 
@@ -24,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <HomeLogo />
         <NavBar />
         {children}

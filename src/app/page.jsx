@@ -35,8 +35,8 @@ export default function Home() {
       </div>
       <div className="NAVIGATION section-navigation h-[100vh] bg-black flex flex-col">
         <NavigationLinks link="/about" title="ABOUT US" />
-        <div className="nav-link w-full h-[20%] flex items-center justify-between max-lg:px-8 px-[20rem] border-b border-white">
-          <p className="text-3xl text-[#5d5d5d] font-medium">ACTIVITIES</p>
+        <div className="nav-link bg-[#3f3f3e95] w-full h-[20%] flex items-center justify-between max-lg:px-8 px-[20rem] border-b border-white">
+          <p className="text-3xl  text-[#3f3f3e95] font-medium">ACTIVITIES</p>
           <ul className="act-links flex flex-col">
             <ActLink link="/" title="DESIGN" />
             <ActLink link="/robotics" title="ROBOTICS" />

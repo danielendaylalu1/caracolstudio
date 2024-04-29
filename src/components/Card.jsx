@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ title, date, desc, showAuthor }) => {
+const Card = ({ title, date, desc }) => {
   return (
     <div className="flex flex-col space-y-8">
       <div className="">
@@ -8,7 +8,6 @@ const Card = ({ title, date, desc, showAuthor }) => {
         <p className="text-lg font-normal">{date}</p>
       </div>
       <p className="text-sm">{desc}</p>
-      {showAuthor && <p className="font-bold self-end">scopri di più</p>}
     </div>
   );
 };
