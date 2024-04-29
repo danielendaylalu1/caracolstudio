@@ -7,7 +7,7 @@ const page = () => {
     <div className="h-[100vh] overflow-y-scroll no-scrollbar">
       <div className="bg-[#cdc8c9] flex flex-col justify-center space-y-8 px-4 py-16">
         <div className="flex justify-around">
-          <div className="flex flex-col space-y-8">
+          <div className="flex flex-col space-y-8 py-16">
             <h1 className="text-white text-[54px] font-bold">ROBOTIC</h1>
             <p className="text-[25px] text-red-600 max-w-[800px]">
               Il nostro laboratorio ospita uno dei primi centri di ricerca
