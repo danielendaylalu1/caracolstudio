@@ -6,7 +6,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="h-[100vh] overflow-y-scroll no-scrollbar bg-[#cdc8c9]">
-      <div className="flex flex-col py-16 items-center">
+      <div className="flex flex-col  items-center">
         <div className="p-4 max-w-[800px] space-y-8 mt-8">
           <h1 className="text-white text-[54px] font-bold">ABOUT</h1>
 
