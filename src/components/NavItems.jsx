@@ -20,9 +20,8 @@ const NavItems = ({ showStyle }) => {
             ACTIVITIES
           </p>
           <ul className="flex flex-col gap-y-4 ml-4">
-            <ActLink link="/" title="DESIGN" />
+            <ActLink link="https://www.caracol-am.com/" title="DESIGN" />
             <ActLink link="/robotics" title="ROBOTICS" />
-            <ActLink link="/" title="FACTORY" />
           </ul>
         </div>
         <a

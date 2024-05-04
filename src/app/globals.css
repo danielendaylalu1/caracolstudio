@@ -10,14 +10,11 @@
 }
 
 video#bgvid {
-  /* position: fixed; */
   position: absolute;
   object-fit: cover;
-  /* top: 0; */
   left: 0;
   bottom: 0;
   min-width: 100%;
-  /* min-height: 100%; */
   width: 99vw;
   min-height: 100vh;
   z-index: -1;
@@ -49,7 +46,7 @@ video#bgvid {
     opacity: 1;
   }
   .nav-link {
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
     background-color: #f7f7f057 !important;
   }
 
