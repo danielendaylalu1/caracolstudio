@@ -29,7 +29,6 @@ const NavBar = () => {
             className="self-center font-bold cursor-pointer"
             onClick={() => {
               setShowNavItems(!showNavItems);
-              console.log(showNavItems);
             }}
           />
         </div>
